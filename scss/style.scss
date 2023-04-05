@@ -1,0 +1,96 @@
+:root {
+    --e-color: #071f32;
+}
+
+body {
+    margin: 0;
+
+    header {
+        width: 100%;
+
+        nav {
+            border: 25px sod gray;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            li {
+                svg {
+                    width: 150px;
+                    color: var(--e-color);
+                }
+
+                button {
+                    background-color: white;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                button:hover {
+                    background-color: var(--e-color);
+                }
+            }
+        }
+    }
+
+    hr {
+        border-top: 2px solid rgba($color: grey, $alpha: 0.5);
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        #mid-article {
+            section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                div.img-scalein{
+                    overflow: hidden;
+                    width: 66%;
+                }
+                img#first-img {
+                    width: 600px;
+                    height: 376px;
+                    object-fit: contain;
+                    transition: transform .5s ease;
+                }
+                img#first-img:hover {
+                    transform: scale(1.5);
+                    
+                    
+
+                }
+            #firt-block{
+
+                background-color: white;
+                width: 30%;
+            }
+
+            }
+
+            #sec-of-2el {
+                display: flex;
+                
+                img {
+                    width: 300px;
+                }
+                p{
+                    width: 40%;
+                    line-height: 20px;
+                    font-size:larger;
+                    font-size: 1,5rem;
+                    margin: 0 3rem;
+                }
+            }
+
+        }
+    }
+
+    ul {
+        list-style: none;
+    }
+}
