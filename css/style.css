@@ -1,0 +1,132 @@
+:root {
+  --e-color: #071f32;
+}
+
+body {
+  margin: 0;
+}
+body header {
+  width: 100%;
+}
+body header nav {
+  border: 25px sod gray;
+}
+body header ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+body header ul li svg {
+  width: 150px;
+  color: var(--e-color);
+}
+body header ul li button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+body header ul li button:hover {
+  background-color: var(--e-color);
+}
+body hr {
+  border-top: 2px solid rgba(128, 128, 128, 0.5);
+}
+body main {
+  display: flex;
+  justify-content: space-between;
+}
+body main #letf-article {
+  width: 15%;
+}
+body main #mid-article {
+  width: 70%;
+}
+body main #mid-article section#first-art {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40rem;
+}
+body main #mid-article section#first-art div.img-scalein {
+  width: 80%;
+  height: 357px;
+  overflow: hidden;
+}
+body main #mid-article section#first-art img#first-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+body main #mid-article section#first-art img#first-img:hover {
+  transform: scale(1.5);
+}
+body main #mid-article section#first-art #first-block {
+  background-color: white;
+  width: 40%;
+  position: absolute;
+  top: 400px;
+}
+body main #mid-article section#first-art #first-block h3 {
+  font-size: 3rem;
+  height: 8rem;
+}
+body main #mid-article #sec-of-2el {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+body main #mid-article #sec-of-2el .art-of-2el {
+  width: 35%;
+}
+body main #mid-article #sec-of-2el .art-of-2el .block-img-hv {
+  overflow: hidden;
+}
+body main #mid-article #sec-of-2el .art-of-2el img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+body main #mid-article #sec-of-2el .art-of-2el img:hover {
+  transform: scale(1.15);
+}
+body main #mid-article #sec-of-2el .art-of-2el p {
+  width: 70%;
+  line-height: 20px;
+  font-size: larger;
+  font-size: 1, 5rem;
+  margin: 0 3rem;
+}
+body main #right-article {
+  width: 15%;
+}
+body main #right-article section.sec-right {
+  display: flex;
+  gap: 10px;
+}
+body main #right-article section.sec-right aside hr {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 155px;
+  left: 155px;
+}
+body ul {
+  list-style: none;
+}
+body footer #footer-select {
+  display: flex;
+  gap: 5px;
+}
+body footer #footer-select svg {
+  width: 150px;
+  color: var(--e-color);
+}
+body footer div#footer-ul {
+  display: flex;
+  flex-direction: row;
+}
+body footer nav#footer-nav {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
